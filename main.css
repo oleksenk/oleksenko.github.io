@@ -1,0 +1,395 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.filtr{
+  width: 20%;
+  margin-right: 1%;
+  height: 850px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+}
+.cards{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  margin-top: 3%;
+  margin-left: 3%;
+  height: 150px;
+  width:50%;
+}
+.card1{
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 2%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  min-width: 200px;
+}
+.card2{
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 3%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  min-width: 200px;
+}
+.card3{
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 3%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  min-width: 200px;
+}
+.card4{
+  margin-top: 1%;
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 2%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  min-width: 200px;
+}
+.card5{
+  margin-top: 1%;
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 3%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  min-width: 200px;
+}
+.card6{
+  margin-top: 1%;
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 3%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  min-width: 200px;
+}
+.card7{
+  margin-top: 1%;
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 2%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  min-width: 200px;
+}
+.card8{
+  margin-top: 1%;
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 3%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  min-width: 200px;
+}
+.card9{
+  margin-top: 1%;
+  border:1px solid rgb(119, 117, 117);
+  margin-left: 3%;
+  width: 30%;
+  height: 270px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px; 
+  min-width: 200px;
+}
+.cardss{
+  display: flex;
+}
+.pone{
+  margin-top: 8%;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.riska{
+  margin-top: 5% ;
+  width: 100%;
+  height: 1px;
+  background-color: rgb(119, 117, 117);
+}
+.pdiv{
+  flex-direction: column;
+}
+.ptwo{
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(114, 114, 243);
+}
+.cena{
+  margin-left: 3%;
+  font-size: 19px;
+}
+.fone{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 25px;
+}
+.img1{
+  width: 90%;
+  height: 50px;
+  margin-right: 10%;
+  margin-top: 7%;
+}
+.label1{
+  margin-top: 10%;
+  color: rgb(7, 7, 105);
+  border-radius:5px ;
+  margin-left: 17%;
+  text-align: center;
+  width: 70%;
+  height: 50px;
+  background-color: rgb(243, 243, 243);
+  font-size: 20px;
+}
+input{
+  display: none;
+}
+.pmain{
+  margin-top: 1%; 
+  padding-bottom: 1%;
+  justify-content: center;
+  display: flex;
+  font-size: 50px;
+}
+footer{
+  margin-top: 1%;
+  display: flex;
+}
+.fot1{
+  font-size: 20px;
+  margin-left:2%;
+}
+.fot3{
+  margin-left: 77%;
+  color: rgb(114, 114, 243);
+}
+a{
+  text-decoration: none;
+  color: rgb(114, 114, 243);
+  font-size: 20px;
+}
+@media(max-width:1200px){
+.main{
+  flex-direction: column;
+}
+.img1{
+  display: none;
+}
+.fone{
+  display: none;
+}
+.pone{
+  margin-top: 0;
+}
+.filtr{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200px;
+  background-color: rgb(243, 243, 243);
+}
+.label1{
+  width:300px;
+  margin-left: 50px;
+}
+.card1{
+  display: block;
+}
+.riska{
+  display: none;
+}
+.cena{
+  display: none;
+}
+img{
+  width: 90%;
+  height: 210px;
+}
+.pdiv{
+  display: flex;
+  flex-direction: row;
+}
+.fot3{
+  margin-left: 45%;
+  color: rgb(114, 114, 243);
+}
+}
+@media(max-width:1070px){
+.filtr{
+  margin-left: 5%;
+  padding-bottom: 100px;
+}
+.label1{
+  width: 250px;
+  margin-left: 20px;
+}
+}
+@media(max-width:730px){
+  .label1{
+      width: 200px;
+      margin-left: 20px;
+  }
+  .card1 , .card2 ,.card3 , .card4 , .card5 , .card6 ,.card7 ,.card8 ,.card9{
+      width: 100%;
+  }
+  .fot3{
+      margin-left: 25%;
+      color: rgb(114, 114, 243);
+  }
+  }
+#fil1:checked ~ .card2 {
+    display: none;
+}
+#fil1:checked ~ .card3 {
+    display: none;
+}
+#fil1:checked ~ .card4 {
+    display: none;
+}
+#fil1:checked ~ .card5 {
+    display: none;
+}
+#fil1:checked ~ .card6 {
+    display: none;
+}
+#fil1:checked ~ .card7 {
+    display: none;
+}
+#fil1:checked ~ .card8 {
+    display: none;
+}
+#fil1:checked ~ .card9 {
+  display: none;
+}
+#fil2:checked ~ .card1 {
+  display: none;
+}
+#fil2:checked ~ .card3 {
+  display: none;
+}
+#fil2:checked ~ .card4 {
+  display: none;
+}
+#fil2:checked ~ .card5 {
+  display: none;
+}
+#fil2:checked ~ .card6 {
+  display: none;
+}
+#fil2:checked ~ .card7 {
+  display: none;
+}
+#fil2:checked ~ .card8 {
+  display: none;
+}
+#fil3:checked ~ .card1 {
+  display: none;
+}
+#fil3:checked ~ .card2 {
+  display: none;
+}
+#fil3:checked ~ .card4 {
+  display: none;
+}
+#fil3:checked ~ .card5 {
+  display: none;
+}
+#fil3:checked ~ .card6 {
+  display: none;
+}
+#fil3:checked ~ .card8 {
+  display: none;
+}
+#fil3:checked ~ .card9 {
+  display: none;
+}
+#fil4:checked ~ .card1 {
+  display: none;
+}
+#fil4:checked ~ .card2 {
+  display: none;
+}
+#fil4:checked ~ .card3 {
+  display: none;
+}
+#fil4:checked ~ .card5 {
+  display: none;
+}
+#fil4:checked ~ .card6 {
+  display: none;
+}
+#fil4:checked ~ .card7 {
+  display: none;
+}
+#fil4:checked ~ .card8 {
+  display: none;
+}
+#fil4:checked ~ .card9 {
+  display: none;
+}
+#fil5:checked ~ .card1 {
+  display: none;
+}
+#fil5:checked ~ .card2 {
+  display: none;
+}
+#fil5:checked ~ .card3 {
+  display: none;
+}
+#fil5:checked ~ .card4 {
+  display: none;
+}
+#fil5:checked ~ .card5 {
+  display: none;
+}
+#fil5:checked ~ .card7 {
+  display: none;
+}
+#fil5:checked ~ .card8 {
+  display: none;
+}
+#fil5:checked ~ .card9 {
+  display: none;
+}
+#fil6:checked ~ .card1 {
+  display: none;
+}
+#fil6:checked ~ .card2 {
+  display: none;
+}
+#fil6:checked ~ .card3 {
+  display: none;
+}
+#fil6:checked ~ .card4 {
+  display: none;
+}
+#fil6:checked ~ .card6 {
+  display: none;
+}
+#fil6:checked ~ .card7 {
+  display: none;
+}
+#fil6:checked ~ .card9 {
+  display: none;
+}
